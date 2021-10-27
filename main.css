@@ -2,13 +2,19 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* .navbar-collapse{
-    display: flex;
-    justify-content: flex-end;
-} */
+
+section{
+    padding: 30px 0;
+
+}
+.navbar-collapse{
+    color: indigo;
+}
 #intro{
-    background-image: url(./pics/stage-bg.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./pics/stage-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -17,6 +23,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
+    margin-top: 5%;
 }
 
 .navbar-nav{
@@ -26,4 +33,55 @@
 .intro-container{
     align-items: center;
     justify-items: center;
+}
+
+#head {
+    color: white;
+    text-shadow: 0px 5px 20px purple;
+}
+
+#color-text {
+    color: white;
+}
+#headBtn:hover {
+    box-shadow: 0px 5px 10px purple;
+}
+
+.level{
+    font-size: 200%;
+}
+
+#icon-container{
+    border: 4px solid black;
+    width: 15%;
+    padding: 50px 0;
+    margin-left: 8%;
+    border-radius: 50%;
+    transition: 0.3s ease-in;
+}
+
+#icon-container:hover{
+    color: white;
+    background: black;
+    box-shadow: 0px 5px 15px purple;
+}
+
+.image img{
+    width: 50%;
+    height: 90%;
+    border-radius: 50%;
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.bio-holder{
+    display: flex;
+}
+
+.bio-content {
+    width: 50%;
 }
