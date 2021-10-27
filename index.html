@@ -4,13 +4,20 @@
     <title>Page Title</title>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script
+    src="https://kit.fontawesome.com/284f158042.js"
+    crossorigin="anonymous"
+  ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 </head>
 <body>
      <!-- navbar -->
- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
-    <div class="container">
+ <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid ms-5 me-5">
       <a class="navbar-brand fw-bold" href="#">Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,11 +38,11 @@
  <!-- Home/intro page -->
 
  <section id="intro">
-   <div class="intro-container">
-     <div class="heading-paragraph">
-        <h1>I am Enosh Elliott</h1>
-        <p>Aspiring Fullstack developer</p>
-        <a href="#about" type="button" class="cta">see more</a>
+   <div class="intro-container ms-auto pt-5 mt-5  ms-5 pe-5"> 
+     <div class="heading-paragraph border-start border-secondary border-3">
+        <h1 id="head" class="ms-2 fw-bold">I am Enosh Elliott</h1>
+        <p id="color-text" class="ms-2 fst-italic">Aspiring Fullstack developer</p>
+        <a href="#about" type="button" id="headBtn" class="btn btn-outline-light btn-sm ms-2 rounded border-2">Get to know me</a>
      </div>
   </div>
  </section>
@@ -43,8 +50,84 @@
  <!-- About section -->
 
  <section id="about">
-<h3>Who am I?</h3>
- </section>
+    <h1 class="text-center fw-bold">My Biography</h1>
+    <div class="bio-holder">
+      <div class="image"><img src="./pics/closeup-bg.jpg" alt=""></div>
+      <div class="bio-content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem atque odit dolor unde nulla ipsa quos hic perferendis amet, temporibus eaque, omnis optio cupiditate quidem illum quasi debitis blanditiis tempora molestiae. Corrupti modi id itaque, debitis perferendis voluptatibus amet alias in repellat inventore sit! Provident harum rem minima enim aperiam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus temporibus ullam necessitatibus molestiae illo facere unde qui facilis alias perferendis eius velit, pariatur totam tenetur ex voluptatum iste. Voluptatibus odit in eaque deleniti deserunt. Rem facere provident non autem unde alias sint quibusdam sequi, voluptas natus. Sequi vero provident voluptatibus!</p>
+      </div>
+    </div>
+  </section>
+
+ <!-- Skills section -->
+
+<section id="skills">
+  <div class="row text-center">
+    <div class="col-md-12 col-sm-12">
+        <div class="programming-area">
+            <div class="row">
+                <h1 class="fw-bold text-decoration-underline mb-5">Programming Skills</h1><br>
+                <div id="icon-container" class="col-md-3 col-sm-3 col-xs-3">
+                    <div class="single-program mt-3">
+                      <h3>HTML</h3> <!--edit here-->
+                      <div class="level"><span><i class="fas fa-code"></i></span></div> <!--edit here-->
+                    </div>
+                </div>
+                <div id="icon-container" class="col-md-3 col-sm-3 col-xs-3">
+                  <div class="single-program mt-3">
+                    <h3>CSS</h3> <!--edit here-->
+                    <div class="level"><span><i class="fab fa-css3-alt"></i></span></div> <!--edit here-->
+                  </div>
+                </div>
+                <div id="icon-container" class="col-md-3 col-sm-3 col-xs-3">
+                    <div class="single-program mt-3">
+                      <h3>Bootstrap</h3> <!--edit here-->
+                      <div class="level"><span><i class="fab fa-bootstrap"></i></span></div> <!--edit here-->
+                    </div>
+                  </div>
+                  <div id="icon-container" class="col-md-3 col-sm-3 col-xs-3">
+                    <div class="single-program mt-3">
+                      <h3>Javascript</h3> <!--edit here-->
+                      <div class="level "><span><i class="fab fa-js"></i></span></div> <!--edit here-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+
+  <section id="Projects">
+    <h1 class="text-center fw-bold">My Projects</h1>
+<div class="container">
+    <div class="card" style="width: 18rem;">
+      <img src="./pics/pose-bg.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="./pics/pose-bg.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+</div>
+  </section>
+
+  <!-- Testimonial Section -->
+<section class="testimonials">
+  <h1 class="text-center fw-bold">My Testimonials</h1>
+</section>
+
  <script src="./bootstrap.bundle.min.js"></script>
 </body>
 </html>
