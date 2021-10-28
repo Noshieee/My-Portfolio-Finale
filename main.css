@@ -3,11 +3,19 @@
     margin: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Comic Neue', cursive;
+}
+body{
+    overflow-x: hidden;
+}
+
+.center-landing-text {
+    margin-left: auto !important;
+    margin-right: auto;
 }
 
 section{
-    padding: 30px 0;
+    padding: 75px 0;
 
 }
 .navbar-collapse{
@@ -23,7 +31,6 @@ section{
     align-items: center;
     width: 100%;
     height: 100vh;
-    margin-top: 5%;
 }
 
 .navbar-nav{
@@ -69,8 +76,7 @@ section{
 .image img{
     width: 50%;
     height: 90%;
-    border-radius: 50%;
-    
+    border-radius: 50%;   
 }
 .image{
     display: flex;
@@ -80,8 +86,11 @@ section{
 
 .bio-holder{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .bio-content {
     width: 50%;
+    font-size: 125%;
 }
+ /* testimonial section */
