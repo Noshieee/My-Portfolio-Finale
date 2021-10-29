@@ -94,3 +94,83 @@ section{
     font-size: 125%;
 }
  /* testimonial section */
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 360px;
+    align-content: center;
+}
+
+.all-contents{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards-box{
+    position: relative;
+    width: 27%;
+    display: inline-block;
+    background-color: transparent;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    box-sizing: border-box;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 50px;
+    justify-items: auto;
+}
+
+.cards{
+    position: absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 1s ease;
+}
+
+.cards:hover{
+    transform: rotateY(180deg);
+}
+
+.front{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 20px rgb(156, 7, 243);
+    backface-visibility:hidden;
+    /* background-color: aqua; */
+    color:rgb(255, 255, 255);
+    text-align:center;
+    border-radius: 360px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility:hidden;
+    background: rgb(5, 5, 5);
+    color:rgb(254, 254, 255);
+    box-shadow: 2px 2px 20px rgb(156, 7, 243);
+    text-align:center;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotateY(180deg);
+}
+
+ /* contact forms */
+
+ /* footer */
+ footer {
+    text-align: center;
+    font-size: 12px;
+    color:rgb(255, 255, 255);
+    font-size: large;
+    background-color: rgba(0, 0, 0,1);
+}
