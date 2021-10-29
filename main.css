@@ -166,6 +166,55 @@ img{
 
  /* contact forms */
 
+ .contact-box{
+    width: 500px;
+    box-shadow: 0 0 20px 0 rgb(165, 11, 236);
+    /* top: 50%; */
+    /* left: 50%; */
+    transform: translate(100%,0%);
+    position: relative;
+    background-image: url(pics/sunset-sea-bg.jpg);
+}
+
+form{
+    margin:35px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    background-color:rgb(255, 255, 255);
+}
+
+.textarea-field{
+    height:150px;
+    padding-top: 10px;
+}
+
+.btn{
+    border-radius: 20px;
+    color: rgb(211,7,211);
+    margin-top: 18px;
+    padding: 10px;
+    background-color: rgb(5, 5, 5);
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+
+.btn:hover{
+    color: rgb(12, 12, 12);
+    background-color: rgb(156, 7, 243);
+    transition: ease-in;
+    transition-delay: 25ms;
+}
  /* footer */
  footer {
     text-align: center;
