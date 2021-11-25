@@ -21,7 +21,7 @@ section{
     color: indigo;
 }
 #intro{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./pics/stage-bg.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/pics/stage-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -67,7 +67,7 @@ section{
 }
 /* skills section */
 #skills{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./pics/sunset-sea-bg.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/pics/sunset-sea-bg.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
